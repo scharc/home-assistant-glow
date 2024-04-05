@@ -26,14 +26,14 @@ esphome:
     version: "${project_version}"
 
 dashboard_import:
-  package_import_url: github://klaasnicolaas/home-assistant-glow/home-assistant-glow/d1_mini.yaml@main
+  package_import_url: github://scharc/home-assistant-glow/home-assistant-glow/d1_mini.yaml@main
 
 esp8266:
   board: d1_mini
 
 packages:
   remote_package:
-    url: https://github.com/klaasnicolaas/home-assistant-glow/
+    url: https://github.com/scharc/home-assistant-glow/
     ref: main
     files:
       - components/basis.yaml
